@@ -15,7 +15,7 @@
 
 int main(){
 
-    int a=2, b=3, c=0, d =0, e=1;;
+    int a=2, b=3, c=0, d =0, e=1;
     
     printf("a) = %s", 5>3 ? "true" : "false");
     printf("\n");
