@@ -5,8 +5,8 @@ de lasiguiente forma, e indicándose sus valores iniciales:*/
 #include <stdio.h>
 int main() {
 
-    int a=3,b=2,c=1, d,e;
-    float m=2.5, n=5.4, r,s;
+    int a=3, b=2, c=1, d, e;
+    float m=2.5, n=5.4, r, s;
 
     d=m;
     printf('d= ' + d + '\n');
@@ -36,5 +36,6 @@ a=3.0+4.0-1;
 r=a+1;
 r=a+1.0;
 a++;*/
+return 0;
 
 };
