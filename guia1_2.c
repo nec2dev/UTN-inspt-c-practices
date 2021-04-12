@@ -7,7 +7,7 @@ d) z = 3 * x + 6;*/
 
 #include <stdio.h>
 int main() {
-   double x, y, z, r;
+   int x, y, z, r;
    x=1;
    y=2;
    z=3;
@@ -22,7 +22,7 @@ int main() {
            printf("Su expresión equivalente es: x -= y+10\n");
            }}else{
                printf("Su expresión equivalente es: x += 10+y\n");
-   }
+   };
 
 
     printf("b) r = 100*r, ");
@@ -34,7 +34,7 @@ int main() {
            printf("Su expresión equivalente es: r *= 100\n");
            }}else{
                printf("Su expresión equivalente es: r += 100\n");
-   }
+   };
 
 
     printf("c) y = y/(10+x), ");
@@ -46,19 +46,24 @@ int main() {
            printf("Su expresión equivalente es: y /= 10 + y/x\n");
            }}else{
                printf("Su expresión equivalente es: y /= 10+x\n");
-   }
+   };
 
 
-    printf("d) z = 3 * x + 6, ");
+//    printf("d) z = 3 * x + 6, ");
 
-   if((z=3*x+6)==(z+=6)){
-       if(z=3*x+6)==(z*=3)){
-           printf("Su expresión equivalente es: z += 6*x\n");
-       }else{
-           printf("Su expresión equivalente es: y /= 10 + y/x\n");
-           }}else{
-               printf("La expresión equivalente no es posible\n");
-   }
+//    if((z=3*x+6)==(z+=6)){
+//        if(z=3*x+6)==(z*=3)){
+//            printf("Su expresión equivalente es: z += 6*x\n");
+//        }
+//        }else{
+//            printf("Su expresión equivalente es: y /= 10 + y/x\n");
+//            }else{
+//                printf("La expresión equivalente no es posible\n");
+//    };
+
+
+   printf("d) La expresión equivalente no es posible\n");
    
    return 0;
+
 };
