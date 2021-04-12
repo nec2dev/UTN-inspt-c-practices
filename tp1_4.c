@@ -40,91 +40,91 @@ int main(){
     float b=13.546; 
     char  c='A', d='a';
     
-    printf ("a) a vale: %d", a);
+    printf ("a) a con %%d imprime:  %d", a);
     printf("\n");
 
-    printf ("b) a vale: %o", a);
+    printf ("b) con %%o imprime: %o", a);
     printf("\n");
 
-    printf ("c) a vale: %X", a);
+    printf ("c) a con %%X imprime: %X", a);
     printf("\n");
 
-    printf ("e) a vale: %c", a);
+    printf ("e) a con %%c imprime: %c", a);
     printf("\n");
 
-    printf ("f) b vale: %d", b);
+    printf ("f) b con %%d imprime: %d", b);
     printf("\n");
 
-    printf ("g) b vale:  %5.2d", b);
+    printf ("g) b con %%5.2d imprime:  %5.2d", b);
     printf("\n");
 
-    printf ("h) b vale: %f", b);
+    printf ("h) b con %%f imprime: %f", b);
     printf("\n");
 
-    printf ("i) ba vale:%.1f", b);
+    printf ("i) b con %%.1f imprime: %.1f", b);
     printf("\n");
 
-    printf ("j) b vale:%.2f", b);
+    printf ("j) b con %%.2f imprime: %.2f", b);
     printf("\n");
 
-    printf ("k) b vale:  %6.4f", b);
+    printf ("k) b con %%6.4f imprime:  %6.4f", b);
     printf("\n");
 
-    printf ("l) a vale: %6.1f", b);
+    printf ("l) a con %%6.1f imprime: %6.1f", b);
     printf("\n");
 
-    printf ("m) b vale: %c", b);
+    printf ("m) b con %%c imprime: %c", b);
     printf("\n");
 
-    printf ("n) b vale: %o", b);
+    printf ("n) b con %%o imprime: %o", b);
     printf("\n");
 
-    printf ("o) b vale: %X", b);
+    printf ("o) b con %%X imprime: %X", b);
     printf("\n");
 
-    printf ("p) c vale: %d", c);
+    printf ("p) c con %%d imprime: %d", c);
     printf("\n");
 
-    printf ("q) c vale: %f", c);
+    printf ("q) c con %%f imprime: %f", c);
     printf("\n");
 
-    printf ("c) c vale: %c", c);
+    printf ("c) c con %%c imprime: %c", c);
     printf("\n");
 
-    printf ("s) c vale: %o", c);
+    printf ("s) c con %%o imprime: %o", c);
     printf("\n");
 
-    printf ("t) c vale: %X", c);
+    printf ("t) c vcon %%X imprime: %X", c);
     printf("\n");
 
-    printf ("u) d vale: %d", d);
+    printf ("u) d con %%d imprime: %d", d);
     printf("\n");
 
-    printf ("v) d vale: %f", d);
+    printf ("v) d con %%f imprime: %f", d);
     printf("\n");
 
-    printf ("w) d vale: %c", d);
+    printf ("w) d con %%c imprime: %c", d);
     printf("\n");
 
-    printf ("x) d vale: %o", d);
+    printf ("x) d con %%o imprime: %o", d);
     printf("\n");
 
-    printf ("y) d vale: %X", d);
+    printf ("y) d con %%X imprime: %X", d);
     printf("\n");
 
-    printf ("z) e vale: %d", e);
+    printf ("z) e con %%d imprime: %d", e);
     printf("\n");
 
-    printf ("aa) e vale: %f", e);
+    printf ("aa) e con %%f imprime: %f", e);
     printf("\n");
 
-    printf ("bb) e vale: %c", e);
+    printf ("bb) e con %%c imprime: %c", e);
     printf("\n");
 
-    printf ("cc) e vale: %o", e);
+    printf ("cc) e con %%o imprime: %o", e);
     printf("\n");
 
-    printf ("dd) e vale: %X", e);
+    printf ("dd) e con %%X imprime: %X", e);
     printf("\n");
 
     return(0);
