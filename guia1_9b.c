@@ -15,16 +15,11 @@ int main (){
      int n, total;
      float promedio;
 
-     n=0;
+     total = 320;
+     n=3;
+
+     promedio = total/n;
      
-     printf("Ingrese un número real: \n");
-     scanf("%f", &y);
-     printf("%f\n", y);
-
-     printf("Ingrese un número entero: \n");
-     scanf("%d", &x);
-     printf("%d\n", x);
-
-     return 0;
+     printf("El promedio es: %.3f\n",promedio);
 
 };
