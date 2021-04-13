@@ -14,7 +14,7 @@ int main (){
      printf("Ingrese el valor en grados de otro ángulo del triángulo: \n");
      scanf("%.2f", &angle_2);
 
-     float calculateAngle (float angle_1, float angle_2){
+     float calculateAngle (float angle_1, float angle_2);{
          float angle_3 = 180-(angle_1+angle_2);
          return angle_3;
      };
