@@ -2,7 +2,7 @@
 un cuadrado (en m2), el mismo debe emitir por pantalla su perímetro.*/ 
 
 #include <stdio.h>
-#include <cmath>
+#include <math.h>
 
 int main() {
 
@@ -11,9 +11,9 @@ int main() {
    printf("Por favor, Ingrese la superficie total del cuadrado en cm. cuadrado\n");
    scanf("%f", &superficie);
 
-   float lado = sqrt(superficie);
+    lado = sqrt(superficie);
 
-    printf("El lado del cuadrado mide %.2f", lado, "cm.\n");
+    printf("El lado del cuadrado mide %.2f cm.", lado);
 
    return 0;
 };
