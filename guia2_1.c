@@ -6,19 +6,19 @@ y escribir en la pantalla si dicho número es Positivo, Negativo o 0
 
 int main() {
 
-   double n;
+   float n;
    
    printf("Por favor, Ingrese un valor cualquiera");
-   scanf("%d", &n);
+   scanf("%f", &n);
 
    if(n>0) {
-       printf("El número %d es Positivo", n);
+       printf("El número %f es Positivo", n);
    }
    else if(n==0) {
        printf("ingresó en número 0");
    }
    else {
-       printf("El número %d es Negativo", n);
+       printf("El número %f es Negativo", n);
    }
 
    return 0;
