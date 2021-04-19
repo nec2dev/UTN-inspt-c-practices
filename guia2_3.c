@@ -13,7 +13,7 @@ int main() {
 
    if(a>b) {
        if(a%b==0){
-       printf("El númer0 %d es divisible por %d", a,b);
+       printf("El número %d es divisible por %d", a,b);
        }
    }
    else if(a==b) {
@@ -21,7 +21,7 @@ int main() {
    }
    else {
        if(b%a==0){
-       printf("El númer0 %d es divisible por %d", b,a);
+       printf("El número %d es divisible por %d", b,a);
        }
    }
 
