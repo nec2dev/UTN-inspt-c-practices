@@ -52,7 +52,6 @@ int main() {
        printf("Ha ingresado un valor no válido\n");
    };
 
-   system(pause);
    return 0;
 
 };
