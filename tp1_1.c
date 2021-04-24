@@ -8,12 +8,15 @@ que indique cuando funcionara.*/
 
 int main(){
      
-    bool switch01, switch002, switch003;
+    bool switch01 = false, switch002 = false, switch003 = false;
 
-    printf("El programa no está funcionando, por favor encienda al menos dos interruptores.");
+    printf("Buenas, el circuito no está funcionando, por favor encienda al menos dos interruptores.\n");
+    printf("Desea encender algún interruptor?");
 
-    printf("El programa no está funcionando, por favor encienda al menos un interruptor.");
+    printf("El circuito no está funcionando, por favor encienda al menos dos interruptores.");
+
+    printf("El circuito no está funcionando, por favor encienda al menos un interruptor.");
     
-    printf("El programa está funcionando funcionando correctamente, no apague ningún interruptor.");
+    printf("El circuito está funcionando correctamente, no apague ningún interruptor.");
 
     };
