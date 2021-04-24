@@ -8,10 +8,19 @@ que indique cuando funcionara.*/
 
 int main(){
      
-    bool switch01 = false, switch002 = false, switch003 = false;
+    char switch01 = 0, switch002 = 0, switch003 = 0, char desicion;
 
-    printf("Buenas, el circuito no está funcionando, por favor encienda al menos dos interruptores.\n");
-    printf("Desea encender algún interruptor?");
+    printf("Buenas, el circuito está apagado, por favor encienda al menos dos interruptores.\n");
+    printf("Desea encender algún interruptor?, Ingrese S o N\n");
+    scanf("%c", &desicion);
+
+    if(desicion == N){
+        printf("Buenas, el circuito está apagado, por favor encienda al menos dos interruptores.\n");    
+    if else(desicion == N){
+            
+    }else{
+        printf("No ha ingresado un carácter válido.\n");  
+    }
 
     printf("El circuito no está funcionando, por favor encienda al menos dos interruptores.");
 
