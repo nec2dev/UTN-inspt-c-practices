@@ -27,6 +27,9 @@ int main(){
 
     int numbers[3] = {num001, num002, num003};
 
+    /*for(int i=0; i<3; i++) 
+    printf("%i",numbers[i]);*/
+
     printf("Elija una opción del menú:\n");
     printf("1 -> El producto de números pares.\n");
     printf("2 -> El promedio de los números ingresados y el porcentaje de números pares ingresados.\n");
@@ -35,17 +38,14 @@ int main(){
     printf("5 -> Salir del programa.\n");
     scanf("%c", &menuselected);
 
-    printf(numbers);
+    float productEvenNumbers(int numbers){
+        if(number%2 == 0)
+            even_sum = even_sum + number;
+        else
+            printf("Lo siento, no se ingresó ningun número par\n");
+    return 0;
+    }
 
-    // float productEvenNumbers(int numbers){
-    //     if(number%2 == 0)
-    //         even_sum = even_sum + number;
-    //     else
-    //         printf("Lo siento, no se ingresó ningun número par\n");
-    // return 0;
-    // }
-
-    // }
 
     // switch(menuselected){
     //     case 1: printf("%f", productEvenNumbers(num001, num002, num003));
@@ -61,4 +61,4 @@ int main(){
     //     default: printf("El día no existe");
     // }
     // return 0;
-    };
+};
