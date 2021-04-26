@@ -1,4 +1,5 @@
-/*Se ingresan 20 números por teclado y se indica si alguno fue negativo mediante un mensaje*/
+/*Se ingresan 20 números por teclado y se indica si alguno fue 
+negativo mediante un mensaje*/
 
 
 #include <stdio.h>
