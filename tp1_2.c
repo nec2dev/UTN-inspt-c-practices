@@ -40,9 +40,8 @@ int main(){
     int i, even=0, evenProd;
 
     int productEvenNumbers(int num001, int num002, int num003){
-        
+            
         }         
-    }
 
     int averageEvenPercentage(){
 
