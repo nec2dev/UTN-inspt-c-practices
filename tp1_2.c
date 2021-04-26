@@ -42,7 +42,7 @@ int main(){
     int i, even=0, evenProd;
     //int productEvenNumbers(int numbers){
         for (i=1; i<=2; i++) {
-            if(*(numbers[i])%2 == 0){ 
+            if(numbers[i]%2 == 0){ 
                 even++;
                 evenProd *= (numbers[i]);  
                 printf("%i", evenProd);  
@@ -54,18 +54,18 @@ int main(){
 
     
 
-    // switch(menuselected){
-    //     case 1: printf("El producto de los números pares es de: %i", productEvenNumbers(numbers));
-    //     break;
-    //     case 2: printf(" ");
-    //     break;
-    //     case 3: printf(" ");
-    //     break;
-    //     case 4: printf(" ");
-    //     break;
-    //     case 5: printf(" ");
-    //     break;
-    //     default: printf(" ");
-    // };
-    // return 0;
+    switch(menuselected){
+        case 1: printf("El producto de los números pares es de: %i", productEvenNumbers(numbers));
+        break;
+        case 2: printf(" ");
+        break;
+        case 3: printf(" ");
+        break;
+        case 4: printf(" ");
+        break;
+        case 5: printf(" ");
+        break;
+        default: printf(" ");
+    };
+    return 0;
 };
