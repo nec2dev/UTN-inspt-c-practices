@@ -10,6 +10,7 @@ La suma de los cuadrados de aquellos que sean impares
 */  
 
 #include <stdio.h>
+#include <stdlib.h>
 
 int main(){
      
@@ -27,38 +28,44 @@ int main(){
 
     int numbers[3] = {num001, num002, num003};
 
-    /*for(int i=0; i<3; i++) 
-    printf("%i",numbers[i]);*/
+    // for(int i=0; i<3; i++) 
+    // printf("%i",numbers[i]);
 
     printf("Elija una opción del menú:\n");
     printf("1 -> El producto de números pares.\n");
     printf("2 -> El promedio de los números ingresados y el porcentaje de números pares ingresados.\n");
     printf("3 -> Mostrar el máximo de los números ingresados.\n");
-    printf("4 -> El producto de números pares La suma de los cuadrados de aquellos que sean impares.\n");
+    printf("4 -> La suma de los cuadrados de aquellos que sean impares.\n");
     printf("5 -> Salir del programa.\n");
-    scanf("%c", &menuselected);
+    scanf("%i", &menuselected);
 
-    float productEvenNumbers(int numbers){
-        if(number%2 == 0)
-            even_sum = even_sum + number;
-        else
-            printf("Lo siento, no se ingresó ningun número par\n");
-    return 0;
-    }
+    int i, even=0, evenProd;
+    //int productEvenNumbers(int numbers){
+        for (i=1; i<=2; i++) {
+            if(*(numbers[i])%2 == 0){ 
+                even++;
+                evenProd *= (numbers[i]);  
+                printf("%i", evenProd);  
+            }
+            
+        }
+        
+    //};
 
+    
 
     // switch(menuselected){
-    //     case 1: printf("%f", productEvenNumbers(num001, num002, num003));
+    //     case 1: printf("El producto de los números pares es de: %i", productEvenNumbers(numbers));
     //     break;
-    //     case 2: printf("El día %d es Martes",dia);
+    //     case 2: printf(" ");
     //     break;
-    //     case 3: printf("El día %d es Miércoles",dia);
+    //     case 3: printf(" ");
     //     break;
-    //     case 4: printf("El día %d es Jueves",dia);
+    //     case 4: printf(" ");
     //     break;
-    //     case 5: printf("El día %d es Viernes",dia);
+    //     case 5: printf(" ");
     //     break;
-    //     default: printf("El día no existe");
-    // }
+    //     default: printf(" ");
+    // };
     // return 0;
 };
