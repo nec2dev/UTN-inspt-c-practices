@@ -1,2 +1,2 @@
-else
-    //     printf("No ha ingresado un carácter válido.\n"); 
+if (num > mayor)
+            //   mayor=num;

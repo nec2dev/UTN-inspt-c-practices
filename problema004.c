@@ -10,9 +10,9 @@ int main() {
 
     negativos = 0;
 
-    for ( i=1 ; i <20 ; i++ )
+    for ( i=1 ; i <=20 ; i++ )
     {
-        printf( "\nIntroduzca un n%cmero entero %i: ", 163, i);
+        printf( "\nIntroduzca un n%cmero %i: ", 163, i);
         scanf("%f", &num );
 
         if (num<0)

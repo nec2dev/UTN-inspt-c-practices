@@ -1,8 +1,23 @@
-/*	Se leen 20 números y se emite un mensaje indicando cuantos fueron negativos.
-	Se leen 20 números y se emite su promedio.
-	Se lee un entero N y luego N numero reales. Se emite el menor de ellos.
-	Se leen N números; se emite su promedio.
-	Se lee un número natural N y la computadora emite los números naturales pares menores que N.  
-	Dados N enteros, se emite un mensaje indicando si ingresaron en orden creciente, decreciente o desordenados.
+/*	Se leen 20 números y se emite su promedio.*/
 
-Se lee un número entero N mayor o igual que 0 y, la computadora muestra el factorial del mismo.*/
+
+#include <stdio.h>
+
+int main() {
+
+   int i;
+   float num, suma, promedio;
+
+    for ( i=1 ; i<21 ; i++ ){
+        printf( "\nIntroduzca un n%cmero %i: ", 163, i);
+        scanf("%f", &num );
+            suma += num;
+        }
+
+        promedio = suma/20;
+
+    printf("\nEl promedio de los 20 n%cmero(s) ingresados es de: %.2f.", 163, promedio);
+
+    return 0;
+
+};
