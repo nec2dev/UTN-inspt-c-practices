@@ -28,9 +28,6 @@ int main(){
 
     int numbers[3] = {num001, num002, num003};
 
-    // for(int i=0; i<3; i++) 
-    // printf("%i",numbers[i]);
-
     printf("Elija una opción del menú:\n");
     printf("1 -> El producto de números pares.\n");
     printf("2 -> El promedio de los números ingresados y el porcentaje de números pares ingresados.\n");

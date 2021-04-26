@@ -5,8 +5,6 @@ de entrada son 1 o 0 para cada interruptor. Realizar un programa
 que indique cuando funcionara.*/  
 
 #include <stdio.h>
-#include <stdlib.h>
-#include <ctype.h>
 
 int main(){
      
@@ -17,41 +15,44 @@ int main(){
     printf("switch001: %i\n", switch001); 
     printf("switch002: %i\n", switch002); 
     printf("switch003: %i\n", switch003); 
-    printf("Desea encender algún interruptor?, Ingrese S o N\n");
+    printf("Desea encender alg%cn interruptor?, Ingrese S o N\n",163);
+    fflush(stdin);
     scanf("%c", &desicion1);
+    
 
-    if(desicion1=='S'){
+    if (desicion1 =='S'){
         switch001 = 1;
         printf("switch001: %i\n", switch001); 
         printf("switch002: %i\n", switch002); 
         printf("switch003: %i\n", switch003); 
-        printf("El circuito todavía no está funcionando, por favor encienda un interruptor mas.\n");  
-        printf("Desea encender algún interruptor?, Ingrese S o N\n");
-        scanf("%c", &desicion2); 
-    
-    if(desicion2=='S')
+        printf("El circuito todav%ca no est%c funcionando, por favor encienda un interruptor m%cs.\n", 161, 160, 160);  
+        printf("Desea encender alg%cn otro interruptor?, Ingrese S o N\n", 163);
+        fflush(stdin);
+        scanf("%c", &desicion2);
+
+    }else if(desicion1 =='N'){
+        printf("switch001: %i\n", switch001); 
+        printf("switch002: %i\n", switch002); 
+        printf("switch003: %i\n", switch003); 
+        printf("El circuito qued%c apagdo.", 162);
+    }
+
+    else{
+        printf("No se ingres%c un caracter valido.", 162);
+    }
+
+    if(desicion2=='S'){
         switch002 = 1;
         printf("switch001: %i\n", switch001); 
         printf("switch002: %i\n", switch002); 
         printf("switch003: %i\n", switch003); 
-        printf("El circuito ya está funcionando."); 
+        printf("El circuito ya est%c funcionando.", 160); 
     
-    if(desicion1=='N'){
+    }else if(desicion2 =='N'){
         printf("switch001: %i\n", switch001); 
         printf("switch002: %i\n", switch002); 
         printf("switch003: %i\n", switch003); 
-        printf("El circuito quedó apagdo."); 
-    
-    if(desicion2=='N')
-        printf("switch001: %i\n", switch001); 
-        printf("switch002: %i\n", switch002); 
-        printf("switch003: %i\n", switch003); 
-        printf("El circuito quedó apagdo con un switch prendido."); 
+        printf("El circuito qued%c apagdo con un switch prendido.", 162); 
     }
-    else{
-        printf("El circuitoquedó apagado");
-        }
-        }
-        
-
-};
+    
+}
