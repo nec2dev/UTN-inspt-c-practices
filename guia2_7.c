@@ -13,13 +13,11 @@ int main() {
 	printf("Introduzca el segundo numero: ");
 	scanf("%f", &b);
 
-   if((a+b)%2==0) {
-    printf("la suma de los números ingresados es par");
+   if(b==0) {
+    printf("El cociente es0 y no es posible realizar la operación");
    }
    else {
-      printf("la suma de los números ingresados es impar");
+      printf("El cociente es: %.2f", b);
    }
-
    return 0;
-
 };
