@@ -8,28 +8,28 @@ el residuo de la división respectiva es igual a cero. */
 #include <stdio.h>
 
 int main() {
-   float a,b,c,divisor;
+   int a,b,c;
 
 	printf("Introduzca el primer numero: ");
-	scanf("%f", &a);
+	scanf("%i", &a);
 	printf("Introduzca el segundo numero: ");
-	scanf("%f", &b);
+	scanf("%i", &b);
     printf("Introduzca el tercer numero: ");
-	scanf("%f", &c);
+	scanf("%i", &c);
 
-    if (b%a==0 && c%a==0)
-        divisor = a;
-        printf("\n%.2f es divisor exacto de %.2f y de %.2f.", divisor, b,c);
-    else
-        if (a%b==0 && c%b==0)
-        divisor = b;
-        printf("\n%.2f es divisor exacto de %.2f y de %.2f.", divisor, a,c);
-        else
-            if (a%c==0 && b%c==0)
-            divisor = c;
-            printf("\n%.2f es divisor exacto de %.2f y de %.2f.", divisor, a,b);
-        else
+    if (b%a==0 && c%a==0){
+        printf("\n%i es divisor exacto de %i y de %i.", a, b,c);
+        if (a%b==0 && c%b==0){
+        printf("\n%i es divisor exacto de %i y de %i.", b, a,c);
+            if (a%c==0 && b%c==0){
+            printf("\n%i es divisor exacto de %i y de %i.", c, a,b);
+            }
+        else{
             printf("No se encontró ningun divisor exacto a los otros dos numeros ingresados");
+            }
+        }
+    }
     
-   return 0;
+    return 0;
+
 };
