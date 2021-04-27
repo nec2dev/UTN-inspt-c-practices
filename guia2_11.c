@@ -23,10 +23,10 @@ int main() {
     }
 
     if (!(x+y < z)){
-        printf("d) es: true\n");
+        printf("d) es: true");
     }
     else{
-        printf("d) es: false\n");
+        printf("d) es: false");
     }
 
     return 0;
