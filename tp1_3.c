@@ -9,32 +9,35 @@ NUM. DE KILOS COMPRADOS  	% DESCUENTO
 Determina cuánto pagara una persona que compre X manzanas a un valor Y precio 
 en esa frutería.*/
 
-
 #include <stdio.h>
+#include <stdlib.h>
 
 int main(){
      
-    float kilos, preciofinal;
+    float kilos, precioinicial, preciofinal;
+    precioinicial=250.00;
  
-    printf("Ingrese el valor que le di%c la balanza en kilos\n",162);
     printf("Oferta manzanas por dos kilos: $ 250,00\n");
+    printf("Ingrese el valor que le di%c la balanza en kilos\n",162);
     scanf("%f", &kilos);
     
-    if (kilos>2 && kilos<=5){
-        preciofinal = 250-(250*01);
-        printf("El precio final es de: %f", preciofinal);
-
-    // if (kilos>5 && kilos<=10){
-    //     preciofinal = 250-(250*05);
-    //     printf("El precio final es de: %f", preciofinal);
-
-    // if (kilos>10){
-    //     preciofinal = 250-(250*02);
-    //     printf("El precio final es de: %f", preciofinal);
+    if((kilos>2)&&(kilos<=5)){
+        preciofinal = kilos*(250.00-(250.00*0.1));
+        printf("El precio final es de: $ %.2f", preciofinal);
+    }
+    if((kilos>5)&&(kilos<=10)){
+        preciofinal = kilos*(250.00-(250.00*0.15));
+        printf("El precio final es de: $ %.2f", preciofinal);
+    }
+    if (kilos>10){
+        preciofinal = kilos*(250.00-(250.00*0.2));
+        printf("El precio final es de : $ %.2f", preciofinal);
+    }
+    if ((kilos>0)&&(kilos<=2)){
+        printf("El precio final es de: $ %.2f", precioinicial);
     }
     else{
-        printf("El precio final es de: %f", preciofinal);
-    // }
-    // }
-    }
+        printf("");
+    } 
+ 
 }
