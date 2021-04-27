@@ -10,7 +10,7 @@ diferentes.*/
 
 int main() {
 
-   float a,b,c;
+   float a,b,c,mayor, menor, medio;
 
 	printf("Introduzca el primer numero: ");
 	scanf("%f", &a);
@@ -19,12 +19,12 @@ int main() {
     printf("Introduzca el tercer numero: ");
 	scanf("%f", &c);
 
-   if ( a>=b && a>=c )
-        printf( "\n%.2f es el mayor.", a );
+    if ( a>=b && a>=c )
+        mayor = a;
     else
         if (b>c)
-            printf("\n%.2f es el mayor.", b);
+            mayor = b;
         else
-            printf("\n%.2f es el mayor.", c);
+            mayor = c;
    return 0;
 };
