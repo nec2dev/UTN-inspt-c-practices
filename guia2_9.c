@@ -1,4 +1,4 @@
-/*Desarrolla un algoritmo que le permita leer tres valores A, B y C e 
+/*9. Desarrolla un algoritmo que le permita leer tres valores A, B y C e 
 indique cual es valor del centro. Análisis: Una vez leídos los valores 
 en cada uno de los indicadores (variables A, B, C) se procede a comparar 
 cada uno de ellos con los otros dos para verificar si es valor del centro 
@@ -9,8 +9,7 @@ diferentes.*/
 #include <stdio.h>
 
 int main() {
-
-   float a,b,c,mayor, menor, medio;
+   float a,b,c,medio;
 
 	printf("Introduzca el primer numero: ");
 	scanf("%f", &a);
@@ -19,12 +18,13 @@ int main() {
     printf("Introduzca el tercer numero: ");
 	scanf("%f", &c);
 
-    if ( a>=b && a>=c )
-        mayor = a;
+    if (a>b && a<c)
+        medio = a;
     else
-        if (b>c)
-            mayor = b;
+        if (b>a && b<c)
+            medio = b;
         else
-            mayor = c;
+            medio = c;
+    printf("\n%.2f es el medio.", medio);
    return 0;
 };

@@ -1,4 +1,4 @@
-/*Desarrolla un algoritmo que le permita leer tres valores y almacenarlos 
+/*8. Desarrolla un algoritmo que le permita leer tres valores y almacenarlos 
 en las variables A, B y C respectivamente.  El algoritmo debe indicar 
 cuál es el mayor. Para este caso se asume que los tres valores leídos 
 por el teclado son valores distintos. Análisis: Es necesario leer los 
