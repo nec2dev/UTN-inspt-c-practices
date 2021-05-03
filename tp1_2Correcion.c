@@ -44,11 +44,65 @@ int main(){
             }         
         }
         break;
-        case 2: 
+        case 2: float prom=(num001+num002+num003)/3;
+            float num1percent, num2percent, num3percent;
+            if(num1%2 == 0){
+                num1percent = 33.33;
+            }
+            else{
+                num1percent = 0;
+            }
+            if(num2%2 == 0){
+                num2percent = 33.33;
+            }
+            else{
+                num2percent = 0;
+            }
+            if(num3%2 == 0){
+                num3percent = 33.33;
+            }
+            else{
+                num3percent = 0;
+            }
+            float evenpercent=num1percent+num2percent+num3percent;
+            printf("El promedio de los numeros ingresados es de %.2f y el porcentaje de numeros pares ingresados es de %.2f %", prom, evenpercent); 
         break;
-        case 3: 
+        case 3: float maxnum;
+            if(num001>num002){
+                maxnum = num001;
+            }
+            if(num002>num001){
+                maxnum = num002;
+            }
+            if(num003>maxnum){
+                maxnum = num003;
+            }
+            else{
+                printf("");
+            }
+            printf("El mayor de los numeros ingresados es: %.0f", maxnum);
         break;
-        case 4: 
+        case 4: int oddsquaresum, oddsquare001, oddsquare002, oddsquare003;
+            if(num1%2 == 0){
+                oddsquare001 = 0;
+            }
+            else{
+                oddsquare001 = num1*num1;
+            }
+            if(num2%2 == 0){
+                oddsquare002 = 0;
+            }
+            else{
+                oddsquare002 = num2*num2;
+            }
+            if(num3%2 == 0){
+                oddsquare003 = 0;
+            }
+            else{
+                oddsquare003 = num3*num3;
+            }
+            oddsquaresum=oddsquare001+oddsquare002+oddsquare003;
+            printf("La suma de los cuadrados de aquellos que sean impares es de %i", oddsquaresum);
         break;
         default: printf("No ha ingresado un valor valido");
     }
