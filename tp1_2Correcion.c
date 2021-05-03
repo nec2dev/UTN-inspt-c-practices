@@ -14,8 +14,7 @@ pares ingresados
 
 int main(){
      
-    int num001, num002, num003, oddsquaresum, oddsquare001, oddsquare002, oddsquare003; 
-    int menuselected;
+    int num001, num002, num003, menuselected, oddsquaresum, oddsquare001, oddsquare002, oddsquare003, num; 
     float prom, num1percent, num2percent, num3percent, maxnum;
 
     printf("Por favor ingrese un n%cmero entero.\n", 163);
@@ -32,18 +31,19 @@ int main(){
     printf("Elija una opci%cn del men%c:\n", 162, 163);
     printf("1 -> El producto de n%cmeros pares.\n", 163);
     printf("2 -> El promedio de los n%cmeros ingresados y el porcentaje de n%cmeros pares ingresados.\n",163, 163);
-    printf("3 -> Mostrar el máximo de los n%cmeros ingresados.\n", 163);
+    printf("3 -> Mostrar el mAximo de los n%cmeros ingresados.\n", 163);
     printf("4 -> La suma de los cuadrados de aquellos que sean impares.\n");
     scanf("%i", &menuselected);
      
 
     switch(menuselected){
+        //Probé con un bucle for como práctica del día
         case 1: for(int i=0; i<=2; i++){           
             if(numbers[i]%2==0){
-                int num = num*numbers[i];
-                printf("%i\n", num);
-            }         
+                num =+ numbers[i]*numbers[i];             
+            }
         }
+        printf("%i", num); 
         break;
 
         case 2: prom=(num001+num002+num003)/3;
@@ -69,6 +69,7 @@ int main(){
             float evenpercent=num1percent+num2percent+num3percent;
             printf("El promedio de los numeros ingresados es de %.2f y el porcentaje de numeros pares ingresados es de %.2f %", prom, evenpercent); 
         break;
+
         case 3: 
             if(num001>num002){
                 maxnum = num001;
@@ -84,6 +85,7 @@ int main(){
             }
             printf("El mayor de los numeros ingresados es: %.0f", maxnum);
         break;
+
         case 4: 
             if(num001%2 == 0){
                 oddsquare001 = 0;
@@ -106,6 +108,7 @@ int main(){
             oddsquaresum=oddsquare001+oddsquare002+oddsquare003;
             printf("La suma de los cuadrados de aquellos que sean impares es de %i", oddsquaresum);
         break;
+
         default: printf("No ha ingresado un valor valido");
     }
 
