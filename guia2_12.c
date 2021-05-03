@@ -1,4 +1,4 @@
-/*Completa los espacios en blanco de manera tal que el programa 
+/*12. Completa los espacios en blanco de manera tal que el programa 
 indique si la persona es o no mayor de edad, considerando, 
 int edad=18;*/
 
