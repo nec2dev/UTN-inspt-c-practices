@@ -28,8 +28,6 @@ int main() {
             }
         else{
             printf("No se encontró ningun divisor exacto a los otros dos numeros ingresados");
-            }
-    
+            }  
     return 0;
-
 };

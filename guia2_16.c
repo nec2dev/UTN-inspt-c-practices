@@ -16,9 +16,9 @@ int main() {
     scanf("%f", &peso);
 
     if(estatura>1.82 && peso>90.7) 
-    printf( "Peso excesivo!"); 
+    printf("Peso excesivo!"); 
 
     else 
-    printf( "Peso adecuado.");  
+    printf("Peso adecuado.");  
 
 };

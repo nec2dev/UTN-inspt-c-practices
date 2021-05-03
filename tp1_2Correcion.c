@@ -14,7 +14,7 @@ pares ingresados
 
 int main(){
      
-    int num001, num002, num003, menuselected, oddsquaresum, oddsquare001, oddsquare002, oddsquare003, num; 
+    int num001, num002, num003, menuselected, oddsquaresum, oddsquare001, oddsquare002, oddsquare003, num1prod, num2prod, num3prod, evenprod, num; 
     float prom, num1percent, num2percent, num3percent, maxnum;
 
     printf("Por favor ingrese un n%cmero entero.\n", 163);
@@ -37,16 +37,31 @@ int main(){
      
 
     switch(menuselected){
-        //Probé con un bucle for como práctica del día
-        case 1: for(int i=0; i<=2; i++){           
-            if(numbers[i]%2==0){
-                num =+ numbers[i]*numbers[i];             
+        case 1: 
+            if(num001%2 == 0){
+                num1prod = num001;
             }
-        }
-        printf("%i", num); 
+            else{
+                num1prod = 1;
+            }
+            if(num002%2 == 0){
+                num2prod = num002;
+            }
+            else{
+                num2prod = 1;
+            }
+            if(num003%2 == 0){
+                num3prod = num003;
+            }
+            else{
+                num3prod = 1;
+            }
+            evenprod=(num1prod*num2prod*num3prod);
+            printf("El producto de los numeros pares es de %i", evenprod);
         break;
 
-        case 2: prom=(num001+num002+num003)/3;
+        case 2: 
+            prom=(num001+num002+num003)/3;
             
             if(num001%2 == 0){
                 num1percent = 33.33;
