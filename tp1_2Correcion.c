@@ -14,8 +14,9 @@ pares ingresados
 
 int main(){
      
-    int num001, num002, num003; 
+    int num001, num002, num003, oddsquaresum, oddsquare001, oddsquare002, oddsquare003; 
     int menuselected;
+    float prom, num1percent, num2percent, num3percent, maxnum;
 
     printf("Por favor ingrese un n%cmero entero.\n", 163);
     scanf("%i", &num001);
@@ -44,21 +45,22 @@ int main(){
             }         
         }
         break;
-        case 2: float prom=(num001+num002+num003)/3;
-            float num1percent, num2percent, num3percent;
-            if(num1%2 == 0){
+
+        case 2: prom=(num001+num002+num003)/3;
+            
+            if(num001%2 == 0){
                 num1percent = 33.33;
             }
             else{
                 num1percent = 0;
             }
-            if(num2%2 == 0){
+            if(num002%2 == 0){
                 num2percent = 33.33;
             }
             else{
                 num2percent = 0;
             }
-            if(num3%2 == 0){
+            if(num003%2 == 0){
                 num3percent = 33.33;
             }
             else{
@@ -67,7 +69,7 @@ int main(){
             float evenpercent=num1percent+num2percent+num3percent;
             printf("El promedio de los numeros ingresados es de %.2f y el porcentaje de numeros pares ingresados es de %.2f %", prom, evenpercent); 
         break;
-        case 3: float maxnum;
+        case 3: 
             if(num001>num002){
                 maxnum = num001;
             }
@@ -82,24 +84,24 @@ int main(){
             }
             printf("El mayor de los numeros ingresados es: %.0f", maxnum);
         break;
-        case 4: int oddsquaresum, oddsquare001, oddsquare002, oddsquare003;
-            if(num1%2 == 0){
+        case 4: 
+            if(num001%2 == 0){
                 oddsquare001 = 0;
             }
             else{
-                oddsquare001 = num1*num1;
+                oddsquare001 = num001*num001;
             }
-            if(num2%2 == 0){
+            if(num002%2 == 0){
                 oddsquare002 = 0;
             }
             else{
-                oddsquare002 = num2*num2;
+                oddsquare002 = num002*num002;
             }
-            if(num3%2 == 0){
+            if(num003%2 == 0){
                 oddsquare003 = 0;
             }
             else{
-                oddsquare003 = num3*num3;
+                oddsquare003 = num003*num003;
             }
             oddsquaresum=oddsquare001+oddsquare002+oddsquare003;
             printf("La suma de los cuadrados de aquellos que sean impares es de %i", oddsquaresum);
