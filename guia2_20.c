@@ -16,13 +16,13 @@ int main() {
     printf("Ingrese un %cltimo n%cmero entero, por favor\n", 163, 163);
     scanf("%i", &num003);
 
-    if(num001<num002<num003){
-        printf("Los n%cmeros estan ordenados de forma ascendente", 163);
-    }else if(num003<num002<num003){
-        printf("Los n%cmeros estan ordenados de forma descendente",163);
+    if(num001<num002&&num002<num003){
+        printf("Los n%cmeros estan ordenados de forma creciente", 163);
+    }else if(num003<num002&&num002<num001){
+        printf("Los n%cmeros estan ordenados de forma decreciente",163);
     }else{
         printf("Los n%cmeros estan desordenados", 163);
-        }
+    }
 
     return 0;
 };
