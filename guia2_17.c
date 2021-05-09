@@ -19,4 +19,6 @@ int main() {
     else 
     printf( "Peso adecuado.");  
 
+    return 0;
+
 };
