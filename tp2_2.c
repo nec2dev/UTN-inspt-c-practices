@@ -34,4 +34,4 @@ int main(){
     printf("Se han ingresado %i personas con edades de entre 20 y 30 a%cos\n", contage, 164);
     printf("El sueldo promedio de los que tienen m%cs de 30 a%cos es de: $ %.2f\n", 160, 164, promsalary);
     return 0;
-}
+}//Corregir promedio dision por cero
