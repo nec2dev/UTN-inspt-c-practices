@@ -5,15 +5,14 @@ es -1. La computadora indica cuál fue el máximo número ingresado.*/
 
 int main (){
     int num=0, aux=0;
-
     do{
         printf("Por favor, ingrese un numero entero:");
         scanf("%i",&num);
-        if (aux>num){
+        if (num>aux){
              aux=num;
             }
     }
     while (num!=-1);   
-        printf ("\nEl m%cximo de los n%cmeros ingresados es: %i", 160, 163, num);
+        printf ("\nEl m%cximo de los n%cmeros ingresados es: %i", 160, 163, aux);
     return 0;
 }
