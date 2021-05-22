@@ -19,13 +19,12 @@ dirección almacenada en r.*/
 int main (){
 
     //1) Declarar a, b y c variables enteras, y p, q y r variables puntero a entero.
-    int a, b;
-    //int c;
+    int a, b, c;
     int *p, *q, *r;
 
     //2) Declarar m, n variables de tipo float y s y t variables puntero a float.
-    //float m, n;
-    //float *s, *t;
+    float m, n;
+    float *s, *t;
 
     //3) Asignar a p la dirección de a y a q la dirección de b.
     p=&a;

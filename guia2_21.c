@@ -5,20 +5,21 @@ o no capicúa*/
 
 int main(){
 
-    int num;
+    int num, capi, u, d, c, m, dm;
 
-    if(!((x < 2) && (y < 6)))
-    printf("a) Si"); 
+    printf("ingresa un númera de hasta cinco cifras\n"); 
+    scanf("%i", &num);
 
-    else 
-    printf ("a) No"); 
+    int capi = numero % 10;
+        capi *= 10;
+        capi += digito;
+        num /= 10;
 
-    if(! ((x > 1) && (y > 3)) 
-    printf("b) Si"); 
-
-    else 
-    printf("b) No"); 
+    if(capi==num){
+        printf("El número ingresado es capicua");
+    }else{
+        printf("El número ingresado no es capicua"); 
+    }
 
     return(0);
-
 }
