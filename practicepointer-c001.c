@@ -1,24 +1,36 @@
+/*c) Probar este código y deducir cual es el significado 
+de el doble asterisco ***/
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<math.h>
-int main ()
-{ int *p, a=1, b=8, **s;
-printf(" --------- EJERCICIO Nº ----------\n\n");
-p=&a;
-b=*p+1;
-s=&p;
-printf("A=%d &A=%d\n\n",a,&a);
-printf("B=%d &B=%d\n\n",b,&b);
-printf("P=%d *P=%d &P=%d\n\n",p,*p,&p);
-printf("S=%d *S=%d &S=%d\n\n",s,*s,&s);
-*s=&b;
-printf("Se ejecuto *S=&B\ny ahora\n\n");
-printf("S=%d *S=%d &S=%d\n\n",s,*s,&s);
-**s=79;
-printf("A=%d &A=%d\n\n",a,&a);
-printf("B=%d &B=%d\n\n",b,&b);
-printf("P=%d *P=%d &P=%d\n\n",p,*p,&p);
-printf("\n");
-system("pause");
-return(0);
+
+int main (){ 
+
+    int *p, a=1, b=8, **s;
+
+    printf(" --------- Ejercicios de punteros: c ----------\n\n");
+
+    p=&a;
+    b=*p+1;
+    s=&p;
+
+    printf("a=%d &a=%d\n\n",a,&a);
+    printf("b=%d &b=%d\n\n",b,&b);
+    printf("p=%d *p=%d &p=%d\n\n",p,*p,&p);
+    printf("s=%d *s=%d &s=%d\n\n",s,*s,&s);
+
+    *s=&b;
+
+    printf("Se ejecuto *s=&b\ny ahora\n\n");
+    printf("s=%d *s=%d &s=%d\n\n",s,*s,&s);
+
+    **s=79;
+
+    printf("a=%d &a=%d\n\n",a,&a);
+    printf("b=%d &b=%d\n\n",b,&b);
+    printf("p=%d *p=%d &p=%d\n\n",p,*p,&p);
+    printf("\n");
+    system("pause");
+    return(0);
 }
