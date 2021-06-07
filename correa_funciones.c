@@ -14,7 +14,13 @@ int main() {
        
    }
    menu(){
-       
+       printf("========================\nCALCULO DE SUPERFICIES (version 1.0\n========================\n");
+       printf("1.Cuadrado\n");
+       printf("2.Circulo\n");
+       printf("3.rectangulo\n");
+       printf("4.trapecio\n");
+       printf("5.triangulo\n");
+       printf("0.Salir del programa\n");
    }
    cuadrado(float lado){
        //float lado;
