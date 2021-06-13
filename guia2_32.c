@@ -10,11 +10,11 @@ int main (){
 
      printf("Ingrese el valor de la compra: \n");
      scanf("%f", &preciocompra);
-     
-     if(preciocompra>=200)
+
+     if(preciocompra>=200){
      preciofinal=preciocompra-(preciocompra*0.2);
      printf("El valor de la compra final es $ %c: \n", preciofinal);
-     else
+     }else
      printf("El valor de la compra final es $ %c: \n", preciocompra);
 
      return 0;
