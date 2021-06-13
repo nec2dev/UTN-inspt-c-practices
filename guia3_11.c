@@ -19,7 +19,7 @@ int main (){
     for(i=n;i>=0;i--)
        if(i%2==0)
        printf("%d\n",i);   
-    //getchar();
+       getchar();
 
     return 0;
 }
