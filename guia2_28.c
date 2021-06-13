@@ -3,30 +3,30 @@
 #include <stdio.h>
 
 // main(){ 
-// float nota;
-//    printf ("Introduzca la nota del 0 al 10:");
-//    scanf ("%f", &nota);
-//    if (nota<5)
+// float num;
+//    printf ("Introduzca la num del 0 al 10:");
+//    scanf ("%f", &num);
+//    if (num<5)
 //    printf ("SUSPENSO\n");
 //    else printf ("APROBADO\n");
 
 // return(0); 
 // }
 
-/*¿Qué sucede si la nota introducida es 5, menor que 5, 
+/*¿Qué sucede si la num introducida es 5, menor que 5, 
 o mayor que 5. Modifíquelo para que muestre por pantalla
-la palabra "SUSPENSO", "APROBADO", "NOTABLE" o "SOBRESALIENTE", 
-según sea la nota introducida.*/
+la palabra "SUSPENSO", "APROBADO", "numBLE" o "SOBRESALIENTE", 
+según sea la num introducida.*/
 
 main(){ 
-float nota;
-   printf ("Introduzca la nota del 0 al 10:");
-   scanf ("%f", &nota);
-   if (nota>=9)
+float num;
+   printf ("Introduzca la num del 0 al 10:");
+   scanf ("%f", &num);
+   if (num>=9)
    printf ("SOBRESALIENTE\n");
-   if (nota>=7)
-   printf ("NOTABLE\n");
-   if (nota>=5)
+   if (num>=7)
+   printf ("numBLE\n");
+   if (num>=5)
    printf ("APROBADO\n");
    else printf ("SUSPENSO\n");
 
