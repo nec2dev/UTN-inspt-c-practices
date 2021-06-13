@@ -12,8 +12,8 @@ opciones y simule la siguiente operatoria:
 o dólares (opción 1 y 2 respectivamente) y luego el importe deseado.  
 - Si se desea depositar dinero el algoritmo deberá solicitar el importe 
 nicamente en pesos  
-- En caso de consulta de Saldo, consultar si quiere ver el de “Caja de 
-ahorro” o “Cuenta Corriente” (opciones 1 y 2 respectivamente)  
+- En caso de consulta de Saldo, consultar si quiere ver el de "Caja de 
+ahorro" o "Cuenta Corriente" (opciones 1 y 2 respectivamente)  
 - En caso de cambio de clave, solicitar la vieja clave y la nueva 
 (obviamente son números) y avisar si la misma es repetida (o sea el nuevo 
 igual a la vieja)  
@@ -23,7 +23,7 @@ cualquier operatoria del cajero hasta que seleccione la opción 5-Salir
 c) Ahora realizar lo siguiente tener presente si ingresamos una clave 
 correcta se ingresa al menú y el número de intentos es menor que 3, y en 
 cambio sí se supera la cantidad de intentos supero los 3 intentos se emite 
-un mensaje “clave incorrecta. Diríjase a su banco emisor”. */
+un mensaje "clave incorrecta. Diríjase a su banco emisor". */
 
 #include <stdio.h>
 

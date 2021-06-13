@@ -4,7 +4,7 @@ e indica de qué tipo es.*/
 // main(){
 //     integer x;
 //     real y;
-//     scanf(“%f”, y);
+//     scanf("%f", y);
 //     printf("%f",x);
 //     }
 #include <stdio.h>

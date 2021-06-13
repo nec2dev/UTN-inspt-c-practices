@@ -15,7 +15,7 @@
 
 /*¿Qué sucede si la nota introducida es 5, menor que 5, 
 o mayor que 5. Modifíquelo para que muestre por pantalla
-la palabra “SUSPENSO”, “APROBADO”, “NOTABLE” o “SOBRESALIENTE”, 
+la palabra "SUSPENSO", "APROBADO", "NOTABLE" o "SOBRESALIENTE", 
 según sea la nota introducida.*/
 
 main(){ 
