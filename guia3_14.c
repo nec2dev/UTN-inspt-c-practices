@@ -17,13 +17,8 @@ int main (){
     //    scanf("%d",&numnat);
     // }   
 
-    printf("ingrese la cantidad de numeros real a ingresar:\n");
+    printf("ingrese la cantidad de numeros reales a ingresar:\n");
     scanf("%d", &cantreal);
-
-    while(cantreal<=0){
-       printf("el numero debe ser entero y positivo:\n");
-       scanf("%d",&cantreal);
-    } 
 
     for(int i=1;i<=cantreal;++i){
        printf("Ingrese el %d%c numero real:\n",i, 167); 
