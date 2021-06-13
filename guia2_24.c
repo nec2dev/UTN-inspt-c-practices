@@ -11,7 +11,7 @@ múltiplo de Z, de lo contrario N no será múltiplo de Z.*/
 #include <stdio.h>
 
 int main (){
-
+    
      float n, z;
 
      printf("Ingrese un n%cmero cualquiera: \n", 163);

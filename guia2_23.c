@@ -7,7 +7,7 @@ los lados de un triángulo:
 #include <stdio.h>
 
 int main (){
-
+    
      float lado1, lado2, lado3, eq, iso, esc;
 
      printf("Ingrese la medida de los lados del tri%cngulo para saber su tipo: \n", 160);
