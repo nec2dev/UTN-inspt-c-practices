@@ -20,7 +20,7 @@ int main (){
          printf("El tri%cngulo es is%cceles", 160, 162);
      }
      else
-     rintf("El tri%cngulo es escaleno", 160);
+     printf("El tri%cngulo es escaleno", 160);
 
      return 0;
 };
