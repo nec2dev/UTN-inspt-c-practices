@@ -4,7 +4,7 @@
 
 int main (){
     int num, i=2, j=0;
-    int a[50];   
+    int factores[50];   
     
     //pedimos un numero positivo
     printf("ingrese un numero positivo:\n");
@@ -19,7 +19,7 @@ int main (){
     while(num>1){
        if(num%i==0){
           num=num/i;
-          a[j]=i;
+          factores[j]=i;
           j++;
           i=2;
        }
@@ -29,8 +29,7 @@ int main (){
     
     //imprimir los factores
     for(i=0;i<j;i++)
-       printf("%d*",a[i]);
-    
+       printf("%d*",factores[i]);  
     getchar();
 
     return 0;
