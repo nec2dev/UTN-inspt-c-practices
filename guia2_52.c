@@ -36,7 +36,4 @@ int main(){
 
     return(0);
 
-    /*No da ningun error, solo que al ingresar un 65 en
-    una variable instanciada como char mostrará el carácter
-    correspondiente de ese símbolo ANSCII*/
 }
