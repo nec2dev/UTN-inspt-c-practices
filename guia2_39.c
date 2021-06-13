@@ -1,0 +1,32 @@
+/*39.Traduce a sentencias if
+y = ( a > b ) ? 3 * a + b : 2 * a + b;
+z = a > = 2 * x ? ( a < 6 ) ? 4 * a : 5 * a : 3 * a + 1;
+*/
+
+#include <stdio.h>
+
+int main(){
+     
+    int a=4, b=3, x=5;
+    float y, z;
+
+    //y=(a>b)?3*a+b:2*a+b;
+    if(a>b)
+    y=3*a+b;
+    else
+    y=2*a+b;
+
+    //z=a>=2*x?(a<6)?4*a:5*a:3*a+1;
+    if(a>=2*x)
+        if(a<6)
+            z=4*a;
+        else
+            z=5*a;
+    else
+        z=3*a+1;
+
+    printf("%f\n", y);
+    printf("%f\n", z);
+
+    return(0);
+}
