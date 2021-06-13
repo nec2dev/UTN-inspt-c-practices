@@ -8,18 +8,18 @@ int main() {
     int hora1, minuto1, segundo1, hora2, minuto2, segundo2;
    
    printf("Por favor, Ingrese la o las horas del primer tiempo\n");
-   scanf("%d", &hora1);
+   scanf("%f", &hora1);
    printf("Por favor, Ingrese el o los minutos del primer tiempo\n");
-   scanf("%d", &minuto1);
+   scanf("%f", &minuto1);
    printf("Por favor, Ingrese el o los segundos del primer tiempo\n");
-   scanf("%d", &segundo1);
+   scanf("%f", &segundo1);
 
    printf("Por favor, Ingrese la o las horas del segundo tiempo\n");
-   scanf("%d", &hora2);
+   scanf("%f", &hora2);
    printf("Por favor, Ingrese el o los minutos del segundo tiempo\n");
-   scanf("%d", &minuto2);
+   scanf("%f", &minuto2);
    printf("Por favor, Ingrese el o los segundos del segundo tiempo\n");
-   scanf("%d", &segundo2);
+   scanf("%f", &segundo2);
 
     int segundoauxiliar = segundo1 + segundo2;
     int segundoresto = segundoauxiliar % 60;                                             
@@ -28,7 +28,7 @@ int main() {
     int horasresto = hora1 + hora2 + minutoauxiliar/60;
     
     printf("Resultado de la suma de los tiempos ingresados: \n");
-    printf("%d horas %d minutos %d segundos", horasresto, minutoresto, segundoresto);
+    printf("%f horas %f minutos %f segundos", horasresto, minutoresto, segundoresto);
     return 0;
 
 };

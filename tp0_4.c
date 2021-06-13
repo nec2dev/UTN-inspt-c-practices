@@ -1,12 +1,12 @@
 // 4) Indicar cuál es la salida por pantalla para cada 
 // sentencia printf, siendo: int a=15;
 // float b=13.546; char  c=’A’; char d=’a’; int e=5>1;
-// a)  printf ("a vale %d", a);
+// a)  printf ("a vale %f", a);
 // b)  printf ("a vale %o", a);
 // c)  printf ("a vale %X", a);
 // d)  printf ("a vale %f", a);
 // e)  printf ("a vale %c", a);
-// f)   printf ("b vale %d", b);
+// f)   printf ("b vale %f", b);
 // g)  printf ("b vale %5.2d", b);
 // h)  printf ("b vale %f", b);
 // i)   printf ("b vale %.1f", b);
@@ -16,17 +16,17 @@
 // m) printf ("b vale %c", b);
 // n)  printf ("b vale %o", b);
 // o)  printf ("b vale %X", b);
-// p)  printf ("c vale %d", c);
+// p)  printf ("c vale %f", c);
 // q)  printf ("c vale %f", c);
 // r)   printf ("c vale %c", c);
 // s)   printf ("c vale %o", c);
 // t)   printf ("c vale %X", c);
-// u)  printf ("d vale %d", d);
+// u)  printf ("d vale %f", d);
 // v)  printf ("d vale %f", d);
 // w) printf ("d vale %c", d);
 // x)  printf ("d vale %o", d);
 // y)  printf ("d vale %X", d);
-// z)  printf ("e vale %d", e);
+// z)  printf ("e vale %f", e);
 // aa) printf ("e vale %f", e);
 // bb) printf ("e vale %c", e);
 // cc) printf ("e vale %o", e);
@@ -40,7 +40,7 @@ int main(){
     float b=13.546; 
     char  c='A', d='a';
     
-    printf ("a) a con %%d imprime:  %d", a);
+    printf ("a) a con %%f imprime:  %f", a);
     printf("\n");
 
     printf ("b) con %%o imprime: %o", a);
@@ -52,7 +52,7 @@ int main(){
     printf ("e) a con %%c imprime: %c", a);
     printf("\n");
 
-    printf ("f) b con %%d imprime: %d", b);
+    printf ("f) b con %%f imprime: %f", b);
     printf("\n");
 
     printf ("g) b con %%5.2d imprime:  %5.2d", b);
@@ -82,7 +82,7 @@ int main(){
     printf ("o) b con %%X imprime: %X", b);
     printf("\n");
 
-    printf ("p) c con %%d imprime: %d", c);
+    printf ("p) c con %%f imprime: %f", c);
     printf("\n");
 
     printf ("q) c con %%f imprime: %f", c);
@@ -97,7 +97,7 @@ int main(){
     printf ("t) c vcon %%X imprime: %X", c);
     printf("\n");
 
-    printf ("u) d con %%d imprime: %d", d);
+    printf ("u) d con %%f imprime: %f", d);
     printf("\n");
 
     printf ("v) d con %%f imprime: %f", d);
@@ -112,7 +112,7 @@ int main(){
     printf ("y) d con %%X imprime: %X", d);
     printf("\n");
 
-    printf ("z) e con %%d imprime: %d", e);
+    printf ("z) e con %%f imprime: %f", e);
     printf("\n");
 
     printf ("aa) e con %%f imprime: %f", e);

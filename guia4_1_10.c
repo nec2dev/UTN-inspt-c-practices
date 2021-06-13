@@ -13,18 +13,18 @@ int main() {
    b=*p+1;
    s=&p;
     //p=&b
-    printf("p=%d, *p=%d, &p=%d\n", p, *p, &p);
-    printf("s=%d, *s=%d, &s=%d", s, *s, &s);
+    printf("p=%f, *p=%f, &p=%f\n", p, *p, &p);
+    printf("s=%f, *s=%f, &s=%f", s, *s, &s);
 
    *s=&b;
 
     printf("Se ejecuto *s=&b\ny ahora...\n");
-    printf("s=%d, *s=%d, &s=%d", s, *s, &s);
+    printf("s=%f, *s=%f, &s=%f", s, *s, &s);
 
    **s=79;
 
-    printf("a=%d, &a=%d\n", a, &a);
-    printf("b=%d, &b=%d\n", b, &b);
+    printf("a=%f, &a=%f\n", a, &a);
+    printf("b=%f, &b=%f\n", b, &b);
 
    system("pause");
 

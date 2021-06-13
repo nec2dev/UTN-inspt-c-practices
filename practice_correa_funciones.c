@@ -17,7 +17,7 @@ siguientes funciones:
     int lee_opcion(){
        int opcion;
        printf("\nPor favor, ingrese la opcion deseada:\n");
-       scanf("%d", &opcion);
+       scanf("%f", &opcion);
        op=opcion;
    }
 

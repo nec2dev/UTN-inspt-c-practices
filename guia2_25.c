@@ -18,19 +18,19 @@ int main (){
      int n, z, w;
 
      printf("Ingrese un n%cmero cualquiera: \n", 163);
-     scanf("%d", &n);
+     scanf("%f", &n);
 
      printf("Ahora ingrese un n%cmero para saber si el anterior es com%cn divisor: \n", 163, 163);
-     scanf("%d", &z);
+     scanf("%f", &z);
 
      printf("Ahora ingrese otro n%cmero para saber si tambien es com%cn divisor del primero: \n", 163, 163);
-     scanf("%d", &z);
+     scanf("%f", &z);
 
      if(z%n==0&&w%n==0){
-         printf("%d es com%cn divisor de %d y de %d", n, 163, z, w);
+         printf("%f es com%cn divisor de %f y de %f", n, 163, z, w);
      }
      else
-     printf("%d no es com%cn divisor entre %d y de %d", n, 163, z, w);
+     printf("%f no es com%cn divisor entre %f y de %f", n, 163, z, w);
 
      return 0;
 };

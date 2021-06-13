@@ -14,8 +14,8 @@ int main()
  for(i=0;i<tam;i++)
  {
 
-     printf("\nIngresar valor posición %d: ", i);
-     scanf("%d", &v[i]);
+     printf("\nIngresar valor posición %f: ", i);
+     scanf("%f", &v[i]);
 
  }
 
@@ -24,7 +24,7 @@ printf("\n Se emitirá el vector \n");
 for(i=0;i<tam;i++)
  {
 
-     printf("\nEl valor de posición %d: es %d ", i, v[i]);
+     printf("\nEl valor de posición %f: es %f ", i, v[i]);
 
 
  }
@@ -37,7 +37,7 @@ for(i=0;i<tam;i++)
 
  }
 
- printf("\n La sumatoria de los valores de v es %d", ac);
+ printf("\n La sumatoria de los valores de v es %f", ac);
 
  return 0;
  }

@@ -33,30 +33,30 @@ int main (){
     //4) Asignar a b el valor 40 usando el puntero q. Mostrar el valor de b, la dirección de b , el
     //valor de q, la dirección de q y el valor contenido en la dirección almacenada en q.
     *q=40;
-    printf("La variable b contiene el valor %d y esta ubicada en %d\n", b, &b);
-    printf("\nLa variable q contiene el valor %d, esta ubicada en %d y el valor de la direccion que contiene es %d\n", q, &q, *q);
+    printf("La variable b contiene el valor %f y esta ubicada en %f\n", b, &b);
+    printf("\nLa variable q contiene el valor %f, esta ubicada en %f y el valor de la direccion que contiene es %f\n", q, &q, *q);
 
     //5) Ingresar desde teclado el valor de a usando su dirección almacenada. Mostrar el valor
     //de a, la dirección de a, el valor de p, la dirección de p y el valor contenido en la dirección
     //almacenada en p.
     printf("Ingrese un valor para a\n");
     scanf("%i" ,p);
-    printf("El valor de a es %d y su direccion es %d\n", a, &a);
-    printf("El valor de p es %d, su direccion es %d y el valor de la direccion que contiene es %d\n", p, &p, *p);
+    printf("El valor de a es %f y su direccion es %f\n", a, &a);
+    printf("El valor de p es %f, su direccion es %f y el valor de la direccion que contiene es %f\n", p, &p, *p);
 
     //6) Asignar a r la dirección de a.
     r=p;
     *r=200;
-    printf ("El valor de a es %d y su direccion es %d\n", a, &a);
-    printf ("El valor de p es %d, su direccion es %d y el valor de la direccion que contiene es %d\n", r, &r, *r);
+    printf ("El valor de a es %f y su direccion es %f\n", a, &a);
+    printf ("El valor de p es %f, su direccion es %f y el valor de la direccion que contiene es %f\n", r, &r, *r);
 
     //7) Asignar a la posición de memoria contenida en el puntero r el valor 200. Mostrar el
     //valor de a, la dirección de a , el valor de p, la dirección de p y el valor contenido en la
     //dirección almacenada en p, y el valor de r, la dirección de r y el valor contenido en la
     //dirección almacenada en r.
     *r=200;
-    printf ("\nEl valor de a es %d y su direccion es %d. El valor de p es %d y su direccion es %d y el valor contenido en la dirección almacenada en p es %d",a,&a,p,&p,*p);
-    printf ("\nEl valor de a es %d y su direccion es %d y el valor contenido en la direccion almacenada en r es %d",r,&r,*r);
+    printf ("\nEl valor de a es %f y su direccion es %f. El valor de p es %f y su direccion es %f y el valor contenido en la dirección almacenada en p es %f",a,&a,p,&p,*p);
+    printf ("\nEl valor de a es %f y su direccion es %f y el valor contenido en la direccion almacenada en r es %f",r,&r,*r);
 
     return 0;
 }

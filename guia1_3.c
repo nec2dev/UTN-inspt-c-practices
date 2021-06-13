@@ -7,7 +7,7 @@ int main(){
     pies = 5;
     pulgadas = pies*12;
 
-    printf("%d", pulgadas);
+    printf("%f", pulgadas);
 
     return(0);
 

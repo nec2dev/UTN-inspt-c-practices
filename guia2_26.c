@@ -18,19 +18,19 @@ int main (){
      int n, m, p;
 
      printf("Ingrese un n%cmero cualquiera: \n", 163);
-     scanf("%d", &n);
+     scanf("%f", &n);
 
      printf("Ahora ingrese un n%cmero para saber si el anterior es com%cn m%cltiplo: \n", 163, 163, 163);
-     scanf("%d", &m);
+     scanf("%f", &m);
 
      printf("Ahora ingrese otro n%cmero para saber si tambien es com%cn m%cltiplo del primero: \n", 163, 163, 163);
-     scanf("%d", &p);
+     scanf("%f", &p);
 
      if(n%m==0&&n%p==0){
-         printf("%d es com%cn m%cltiplo de %d y %d", n, 163, m, p);
+         printf("%f es com%cn m%cltiplo de %f y %f", n, 163, m, p);
      }
      else
-     printf("%d no es com%cn divisor entre %d y %d", n, 163, m, p);
+     printf("%f no es com%cn divisor entre %f y %f", n, 163, m, p);
 
      return 0;
 };

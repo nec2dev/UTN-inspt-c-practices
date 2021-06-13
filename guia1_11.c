@@ -15,6 +15,6 @@ int main (){
          return todays;
      };
 
-     printf("Has vivido : %d días.", ageToDays(age));
+     printf("Has vivido : %f días.", ageToDays(age));
 
 };

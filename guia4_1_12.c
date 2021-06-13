@@ -9,8 +9,8 @@ int main() {
    v=*pu;
    pv=&v;
 
-    printf("u=%d, &u=%X, pu=%X, *pu=%d\n", u, &u, pu, *pu);
-    printf("v=%d, &v=%X, pv=%X, *pv=%d\n", v, &v, pv, *pv);
+    printf("u=%f, &u=%X, pu=%X, *pu=%f\n", u, &u, pu, *pu);
+    printf("v=%f, &v=%X, pv=%X, *pv=%f\n", v, &v, pv, *pv);
 
    system("pause");
 

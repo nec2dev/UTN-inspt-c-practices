@@ -7,13 +7,13 @@ int main() {
    int a,b;
 
 	printf("Introduzca el primer numero: ");
-	scanf("%d", &a);
+	scanf("%f", &a);
 	printf("Introduzca el segundo numero: ");
-	scanf("%d", &b);
+	scanf("%f", &b);
 
    if(a>b) {
        if(a%b==0){
-       printf("El número %d es divisible por %d", a,b);
+       printf("El número %f es divisible por %f", a,b);
        }
    }
    else if(a==b) {
@@ -21,7 +21,7 @@ int main() {
    }
    else {
        if(b%a==0){
-       printf("El número %d es divisible por %d", b,a);
+       printf("El número %f es divisible por %f", b,a);
        }
    }
 

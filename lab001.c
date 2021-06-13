@@ -5,6 +5,6 @@ int main() {
     u=num%10;
     d=_TRUNCATE(num/10)%10;
     c=_TRUNCATE(num/100);
-    printf("%d  %d  %d", u,d,c);
+    printf("%f  %f  %f", u,d,c);
    return 0;
 };

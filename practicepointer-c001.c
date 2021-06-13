@@ -15,21 +15,21 @@ int main (){
     b=*p+1;
     s=&p;
 
-    printf("a=%d &a=%d\n\n",a,&a);
-    printf("b=%d &b=%d\n\n",b,&b);
-    printf("p=%d *p=%d &p=%d\n\n",p,*p,&p);
-    printf("s=%d *s=%d &s=%d\n\n",s,*s,&s);
+    printf("a=%f &a=%f\n\n",a,&a);
+    printf("b=%f &b=%f\n\n",b,&b);
+    printf("p=%f *p=%f &p=%f\n\n",p,*p,&p);
+    printf("s=%f *s=%f &s=%f\n\n",s,*s,&s);
 
     *s=&b;
 
     printf("Se ejecuto *s=&b\ny ahora\n\n");
-    printf("s=%d *s=%d &s=%d\n\n",s,*s,&s);
+    printf("s=%f *s=%f &s=%f\n\n",s,*s,&s);
 
     **s=79;
 
-    printf("a=%d &a=%d\n\n",a,&a);
-    printf("b=%d &b=%d\n\n",b,&b);
-    printf("p=%d *p=%d &p=%d\n\n",p,*p,&p);
+    printf("a=%f &a=%f\n\n",a,&a);
+    printf("b=%f &b=%f\n\n",b,&b);
+    printf("p=%f *p=%f &p=%f\n\n",p,*p,&p);
     printf("\n");
     system("pause");
     return(0);

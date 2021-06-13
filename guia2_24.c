@@ -15,16 +15,16 @@ int main (){
      int n, z;
 
      printf("Ingrese un n%cmero cualquiera: \n", 163);
-     scanf("%d", &n);
+     scanf("%f", &n);
 
      printf("Ahora ingrese otro n%cmero para saber si el anterior es m%cltiplo de este: \n", 163, 163);
-     scanf("%d", &z);
+     scanf("%f", &z);
 
      if(z%n==0){
-         printf("%d es m%cltiplo de %d", n, 163, z);
+         printf("%f es m%cltiplo de %f", n, 163, z);
      }
      else
-     printf("%d no es m%cltiplo de %d", n, 163, z);
+     printf("%f no es m%cltiplo de %f", n, 163, z);
 
      return 0;
 };

@@ -8,13 +8,13 @@ int main (){
      int year;
 
      printf("Ingrese el a%co para saber si es bisiesto: \n", 164);
-     scanf("%d", &year);
+     scanf("%f", &year);
 
      if(year%4==0||year%400==0&&year%100!=0)
-     printf("El a%co ingresado (%d) es bisiesto: \n", 164, year);
+     printf("El a%co ingresado (%f) es bisiesto: \n", 164, year);
      
      else
-     printf("El a%co ingresado (%d) no es bisiesto: \n", 164, year);
+     printf("El a%co ingresado (%f) no es bisiesto: \n", 164, year);
      
      return 0;
 };

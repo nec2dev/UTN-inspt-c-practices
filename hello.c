@@ -5,7 +5,7 @@ int main() {
     u=num%10;
     d=(num/10)%10;
     c=(num/100);
-    printf("%d  %d  %d", c,d,u);
+    printf("%f  %f  %f", c,d,u);
    return 0;
    if(c<u&&c<d){
       newc=c;

@@ -18,9 +18,9 @@ int main() {
    int a,b;
 
 	printf("Introduzca el primer numero: ");
-	scanf("%d", &a);
+	scanf("%f", &a);
 	printf("Introduzca el segundo numero: ");
-	scanf("%d", &b);
+	scanf("%f", &b);
 
    if(b>a) {
        if(b%a==0){
