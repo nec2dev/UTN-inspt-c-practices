@@ -4,8 +4,8 @@ posición en la que ingresó por primera vez*/
 #include <stdio.h>
 
 int main (){
-    
-    int cantent, entero, mayor, posicion;
+
+    int cantent, entero, posicion, mayor;
     
     printf("ingrese la cantidad de numeros enteros a ingresar:\n");
     scanf("%d", &cantent);
@@ -18,9 +18,9 @@ int main (){
        mayor=entero; 
        posicion=i;
        }
-    }
+    };
 
-    printf("El numero mayor ingresado fue el %d y se ingreso en la %d%c posicion", mayor, posicion, 167);
+    printf("El numero mayor ingresado fue el %d y se ingreso en la %d%c posicion", bignum, posicion, 167);
 
     return 0;
 }
