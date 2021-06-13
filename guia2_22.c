@@ -3,7 +3,6 @@ y se muestra un mensaje indicando si es año bisiesto.*/
 
 #include <stdio.h>
 
-
 int main (){
 
      int year;
@@ -16,5 +15,6 @@ int main (){
      
      else
      printf("El a%co ingresado (%d) no es bisiesto: \n", 164, year);
+     
      return 0;
 };
