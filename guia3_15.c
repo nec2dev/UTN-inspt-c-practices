@@ -20,7 +20,7 @@ int main (){
        }
     };
 
-    printf("El numero mayor ingresado fue el %d y se ingreso en la %d%c posicion", bignum, posicion, 167);
+    printf("El numero mayor ingresado fue el %d y se ingreso en la %d%c posicion", mayor, posicion, 167);
 
     return 0;
 }
