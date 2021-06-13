@@ -1,4 +1,4 @@
-/*36.	Dados 3 números, mostrarlos por pantalla en orden
+/*36.Dados 3 números, mostrarlos por pantalla en orden
 creciente.*/
 
 #include <stdio.h>
