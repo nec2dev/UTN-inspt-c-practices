@@ -2,7 +2,7 @@
 condicional if y sigue la traza para observar su 
 funcionamiento. Usa el depurador y observa los valores 
 de las variables del programa.*/
-
+#include <stdio.h>
 
 main(){
     int valor, resultado;
@@ -46,6 +46,11 @@ main(){
     printf("");
     else
     printf("");
+
+    /*Tips: Para el C, es verdadero cualquier valor que sea distinto de cero, 
+    siendo falso sólo cuando es igual a cero. Es por ello que tiene sentido 
+    una expresión del tipo if ( x ), y esta será cierta siempre que x sea 
+    distinto de cero, independientemente del tipo x.*/
     
 return(0);
 }
