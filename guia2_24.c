@@ -12,19 +12,19 @@ múltiplo de Z, de lo contrario N no será múltiplo de Z.*/
 
 int main (){
     
-     float n, z;
+     int n, z;
 
      printf("Ingrese un n%cmero cualquiera: \n", 163);
-     scanf("%f", &n);
+     scanf("%d", &n);
 
      printf("Ahora ingrese otro n%cmero para saber si el anterior es m%cltiplo de este: \n", 163, 163);
-     scanf("%f", &z);
+     scanf("%d", &z);
 
      if(z%n==0){
-         printf("%f es m%cltiplo de %f", n, 163, z);
+         printf("%d es m%cltiplo de %d", n, 163, z);
      }
      else
-     printf("%f no es m%cltiplo de %f", n, 163, z);
+     printf("%d no es m%cltiplo de %d", n, 163, z);
 
      return 0;
 };
