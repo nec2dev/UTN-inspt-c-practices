@@ -1,4 +1,4 @@
-/*45.	¿Qué valor tiene la variable al terminar el 
+/*45.¿Qué valor tiene la variable al terminar el 
 siguiente fragmento de código?
 a=a & 1;
 */
