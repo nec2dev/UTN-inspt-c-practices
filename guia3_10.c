@@ -3,24 +3,22 @@
 #include <stdio.h>
 
 int main (){
-    int n,i,j;
+    int num, i=2, j=0;
     int a[50];   
-      //pedimos un numero positivo
-    printf("ingrese el numero:\n");
-    scanf("%d",&n);
-    while(n<=0)
-    {
+    
+    //pedimos un numero positivo
+    printf("ingrese un numero positivo:\n");
+    scanf("%d",&num);
+
+    while(num<=0){
        printf("el numero debe ser positivo:\n");
-       scanf("%d",&n);
+       scanf("%d",&num);
     }   
-      //obtenemos los factores
-    i=2;
-    j=0;
-    while(n>1)
-    {
-       if(n%i==0)
-       {
-          n=n/i;
+    
+    //obtenemos los factores
+    while(num>1){
+       if(num%i==0){
+          num=num/i;
           a[j]=i;
           j++;
           i=2;
@@ -28,10 +26,12 @@ int main (){
        else
           i++;
     }   
-      //imprimir los factores
+    
+    //imprimir los factores
     for(i=0;i<j;i++)
-       printf("\nfactor %d = %d",i+1,a[i]);
+       printf("%d*",a[i]);
     
     getchar();
+
     return 0;
 }
