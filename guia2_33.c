@@ -1,4 +1,4 @@
-/*Una frutería ofrece las manzanas con descuento según la siguiente tabla:  
+/*33.Una frutería ofrece las manzanas con descuento según la siguiente tabla:  
 
 NUM. DE KILOS COMPRADOS  	% DESCUENTO  
 0 – 2 	                    0% 
