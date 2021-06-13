@@ -1,4 +1,4 @@
-/*7.	Ingresados dos números reales, la computadora muestra su 
+/*7.	Ingresados dos números real, la computadora muestra su 
 cociente. Si el segundo número es cero, la computadora muestra un 
 mensaje indicando la imposibilidad de la operación. */
 

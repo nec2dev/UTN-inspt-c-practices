@@ -1,4 +1,4 @@
-/*	Se lee un entero N y luego N numero reales. 
+/*	Se lee un entero N y luego N numero real. 
 Se emite el menor de ellos.*/
 
 #include <stdio.h>
