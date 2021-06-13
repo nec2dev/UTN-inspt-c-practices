@@ -33,4 +33,6 @@ int main(){
     printf("Sabado");
     if(weekday=='d')
     printf("Domingo");
+
+    return(0);
 }
