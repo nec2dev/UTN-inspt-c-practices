@@ -1,4 +1,4 @@
-/*Se lee un número no determinado de veces un número 
+/*.7. Se lee un número no determinado de veces un número 
 enteros no nulos. El fin de datos se indica con un 0.
 Se desea emitir el valor del promedio de los números 
 positivos leídos.*/

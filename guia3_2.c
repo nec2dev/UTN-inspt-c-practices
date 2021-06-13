@@ -1,5 +1,5 @@
-/*Se ingresan 20 números por teclado y se indica si 
-alguno fue negativo mediante un mensaje*/
+/*2. Se leen 20 números y se emite un mensaje indicando 
+cuantos fueron negativos.*/
 
 #include <stdio.h>
 
@@ -11,8 +11,7 @@ int main (){
         cont++;
         if (num<0){
             contneg++;
-            printf("\nHa ingresado el valor negativo: %i", num);
-            }
+        }
     }
     while(cont<=20);  
         printf ("\nHubo %i numeros negativos.", contneg);

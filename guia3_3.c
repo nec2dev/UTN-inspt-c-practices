@@ -1,4 +1,4 @@
-/*Se leen 20 números y se emite su promedio.*/
+/*3. Se leen 20 números y se emite su promedio.*/
 
 #include <stdio.h>
 

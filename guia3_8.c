@@ -1,4 +1,4 @@
-/*Se ingresa un numero no determinado de valores enteros. El último 
+/*8. Se ingresa un numero no determinado de valores enteros. El último 
 es -1. La computadora indica cuál fue el máximo número ingresado.*/
 
 #include <stdio.h>
