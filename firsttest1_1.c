@@ -1,5 +1,5 @@
-/*Se ingresa un número entero N y se emiten los N primeros números primos.*/
-
+/*Se ingresan un número entero positivo x.  Se pide, emitir un mensaje indicando 
+cuántos números primos hay que sean menores que x.*/
 #include <stdio.h>
 
 int main (){
