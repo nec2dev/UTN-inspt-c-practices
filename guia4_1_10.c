@@ -26,7 +26,7 @@ int main() {
     printf("a=%f, &a=%f\n", a, &a);
     printf("b=%f, &b=%f\n", b, &b);
 
-   system("pause");
+   //system("pause");
 
    return 0;
 };

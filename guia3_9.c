@@ -9,17 +9,17 @@ billetes y monedas. Considerar billetes de
 int main (){
     float buyValue=798.5, pay=1000, returned;
     int bill100=100, bill50=50, bill20=20, bill5=5, bill2=2;
-    int cont100=0, cont50=0, cont20=0, cont10=0, cont5=0, cont2=0;
+    int contermino100=0, cont50=0, contermino20=0, contermino10=0, cont5=0, contermino2=0;
 
     returned=pay-buyValue;
 
-    cont100=returned/100;
+    contermino100=returned/100;
     cont50=(returned%100)/50;
-    cont20=returned/20;
-    cont10=returned/10;
+    contermino20=returned/20;
+    contermino10=returned/10;
     cont5=returned/5;
-    cont2=returned/2;
+    contermino2=returned/2;
 
-    printf("Su vuelto se compone de %i billetes de 100, %i billetes de 50, %i billetes de 20, %i billetes de 10, %i billetes de 5 y %i billetes de 2", cont100, cont50, cont20, cont10, cont5, cont2 );
+    printf("Su vuelto se compone de %i billetes de 100, %i billetes de 50, %i billetes de 20, %i billetes de 10, %i billetes de 5 y %i billetes de 2", contermino100, cont50, contermino20, contermino10, cont5, contermino2 );
     return 0;
 }
