@@ -20,6 +20,5 @@ int main (){
         if(primo)
             printf("%d, ",i);
     }
- 
     return 0;
 }
