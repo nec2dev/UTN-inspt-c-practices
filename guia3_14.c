@@ -1,4 +1,4 @@
-/*Se ingresa un número natural N, seguido de N real. 
+/*14. Se ingresa un número natural N, seguido de N real. 
 Se emite el promedio de los números positivos, el promedio 
 de los números negativos y la cantidad de ceros.*/
 

@@ -1,4 +1,4 @@
-/*Se ingresa un número entero y, la computadora indica si es primo o no.  */
+/*23. Se ingresa un número entero y, la computadora indica si es primo o no.  */
 
 #include <stdio.h>
 

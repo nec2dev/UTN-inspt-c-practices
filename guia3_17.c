@@ -1,4 +1,4 @@
-/*Se ingresa un valor entero de hasta 6 cifras y se 
+/*17. Se ingresa un valor entero de hasta 6 cifras y se 
 emite un mensaje indicando cuántas cifras tiene el 
 número.*/
 

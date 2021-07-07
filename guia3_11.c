@@ -1,4 +1,4 @@
-/*Se lee un número natural N y la computadora emite 
+/*11. Se lee un número natural N y la computadora emite 
 los números naturales pares menores que N.*/
 
 #include <stdio.h>

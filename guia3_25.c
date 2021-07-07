@@ -1,4 +1,4 @@
-/*La conjetura de Goldbach (demostrada hace pocos años) sostiene que todo 
+/*25. La conjetura de Goldbach (demostrada hace pocos años) sostiene que todo 
 número par mayor que 2 es la suma de dos números primos. 
 a) Escribir un programa que lea un número entero, validar que sea par 
 y emitir los dos números primos que sumados dan el número par ingresado. 

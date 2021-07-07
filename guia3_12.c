@@ -1,4 +1,4 @@
-/*Dados N enteros, se emite un mensaje indicando si 
+/*12. Dados N enteros, se emite un mensaje indicando si 
 ingresaron en orden creciente, decreciente o desordenados.*/
 
 #include <stdio.h>

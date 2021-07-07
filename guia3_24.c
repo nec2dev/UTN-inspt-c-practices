@@ -1,4 +1,4 @@
-/*Se ingresa un número entero N y se emiten los N primeros números primos.*/
+/*24. Se ingresa un número entero N y se emiten los N primeros números primos.*/
 
 #include <stdio.h>
 

@@ -1,4 +1,4 @@
-/*Se leen N números enteros y se emite el mayor y la 
+/*15. Se leen N números enteros y se emite el mayor y la 
 posición en la que ingresó por primera vez*/
 
 #include <stdio.h>

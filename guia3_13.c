@@ -1,4 +1,4 @@
-/*Se leen dos enteros N y  M , y se emite la tabla de 
+/*13. Se leen dos enteros N y  M , y se emite la tabla de 
 multiplicar de N entre 1 y M.*/
 
 #include <stdio.h>
