@@ -17,11 +17,13 @@ funciones utilizar adecuadamente. */
 int main(){
 
     float salary, salarysec1, salarysec2, salarysec3, promage, fperc, mperc;
-    int leg=0, age, sector, emplcont=0, agesum=0, auxage=0, auxleg, fcont=0, mcont=0;
+    int leg=0, age, sector, emplcont=0, agesum=0, auxage=0, auxleg, fcont=0, mcont=0, flag=0;
     char gen;
 
+    validateleg();
+
     while(leg!=-1){
-        printf("Ingrese el nro. de legajo:\n");
+        printf("Ingrese el nro. de legajo, para salir, ingrese -1:\n");
         scanf("%d", &leg);
         if(leg>=1200&&leg<=4000){
             emplcont++;
