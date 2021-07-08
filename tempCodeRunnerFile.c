@@ -1,2 +1,2 @@
-if(a==2)
-    printf("&d", i);
+
+        auxmcd=round(num2%mcd);
