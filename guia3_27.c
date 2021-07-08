@@ -1,4 +1,4 @@
-/*27) Los antiguos griegos llamaban números perfectos a aquellos que son 
+/*27. Los antiguos griegos llamaban números perfectos a aquellos que son 
 iguales a la suma de sus divisores (exceptuando al mismo número),como por 
 ejemplo el 6=1+2+3.Escribir un programa que lea un número N y emita los 
 N primeros números perfectos.*/
