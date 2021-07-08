@@ -44,7 +44,7 @@ int main (){
     
     printf("El promedio de edad de los hombres es: %.2f %", summen/contmen);
     printf("El legajo de la mujer con mayor sueldo, $ %.2f.-, es: %d", sueldomax, legmax);
-
+    printf("Fueron procesados %d paquetes de datos", contdata);
     return 0;
 }
 
