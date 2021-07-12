@@ -2,6 +2,8 @@
 si es el valor positivo o no.La funcion no retorna dato, es void. 
 Usarla en una main para indicar si números ingresados son positivos o no.*/
 
+#include <stdio.h>
+
 void ispositive(int num){
     if(num>0){
         printf("El numero ingresado es positvo");
@@ -12,7 +14,7 @@ void ispositive(int num){
 
 int main (){
 
-    int num, aux;
+    int num;
 
     printf("Ingrese un numero entero: \n");
     scanf("%d", &num);
