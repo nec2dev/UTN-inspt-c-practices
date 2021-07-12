@@ -7,7 +7,7 @@ legajo (int),sexo (carácter m ó f), y edad. Se desea emitir
 
 #include <stdio.h>
 
-int main (){
+int main(){
 
     int leg=0, age, oldleg, youngleg, oldage=0, youngage=1000,  cont=0;
     char sexo, name;
