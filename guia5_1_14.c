@@ -9,7 +9,7 @@ y el primero y último de los legajos leídos. Escribir el programa (y
 funciones) que resuelvan el problema.*/
 
 #include <stdio.h>
-#include<stdlib.h>
+
 //Función para validar legajo.
 int Leer_y_Validar_Leg(int leg){
     if(leg>=10000&&leg<=20000){
@@ -55,6 +55,5 @@ int main(){
     printf("El primer legajo leido fue el: %d", firstleg);
     printf("El ultimo legajo leido fue el: %d", lastleg);
     printf("El promedio de los sueldos leidos fue: %f", salarysum/salarycont);
-    return(0);
-    
+    return(0); 
 }

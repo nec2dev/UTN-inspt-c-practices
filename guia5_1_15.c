@@ -10,3 +10,29 @@ Carga_Pri (h; &b);
 que 9.
 */
 
+#include <stdio.h>
+
+void Carga_Pri(int x, int *pos){
+    for(int i=1; i<=20; i++){
+        int primo = 1;
+        int contador = 2;
+        while (contador<=i/2 && primo){
+            if(i%contador==0)
+                primo = 0;
+                contador++;
+        }
+        if(primo)
+            *pos=i;
+    }
+    getch();
+}
+
+int main(){
+
+    int x, *pos;
+    printf("Ingrese un valor para x");
+    scanf("%d", x);
+    Carga_Pri(x, &pos);
+    printf("%d", pos);
+    return(0); 
+}
